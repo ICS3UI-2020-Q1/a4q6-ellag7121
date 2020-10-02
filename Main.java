@@ -26,7 +26,7 @@ public class Main {
       //check if number is divisible
       remainder = number % counter;
 
-      //check if remainder is not 0
+      //check if remainder is 0 (it is not prime)
       if (remainder == 0){
         //tell the user it is not a prime
         System.out.println(number + " is not a prime number");
